@@ -3,6 +3,7 @@ This document provides the details on the Notation security policy and details t
 
 * [Reporting a Vulnerability](#reporting-a-vulnerability)
     * [When To Send a Report](#when-to-send-a-report)
+    * [What To Include In a Report](#what-to-include-in-a-report)
     * [When Not To Send a Report](#when-not-to-send-a-report)
     * [Security Vulnerability Response](#security-vulnerability-response)
     * [Public Disclosure](#public-disclosure)
