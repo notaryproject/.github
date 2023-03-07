@@ -1,5 +1,5 @@
-# Notation Security Process and Policy
-This document provides the details on the Notation security policy and details the process surrounding security handling including a how to report a security vulnerability for anything within the Notary Project organization. 
+# Notary Project Security Process and Policy
+This document provides the details on the Notary Project security policy and details the process surrounding security handling including a how to report a security vulnerability for anything within the Notary Project organization. 
 
 * [Reporting a Vulnerability](#reporting-a-vulnerability)
     * [When To Send a Report](#when-to-send-a-report)
@@ -16,9 +16,9 @@ This document provides the details on the Notation security policy and details t
 
 ## Reporting a Vulnerability
 
-We're extremely grateful for security researchers and users who report vulnerabilities to the Notation community. All reports are thouroughly investigated by a set of Notation maintainers.
+We're extremely grateful for security researchers and users who report vulnerabilities to the Notary Project community. All reports are thouroughly investigated by a set of Notary Project maintainers.
 
-To make a report plese use the GitHub Security Vulnerability Disclosure process for each one of the Notation repositories. Here are the links to report vulnerabilities for each repository:
+To make a report plese use the GitHub Security Vulnerability Disclosure process for each one of the Notary Project repositories. Here are the links to report vulnerabilities for each repository:
 
 - [Notation CLI Vulnerability Report](https://github.com/notaryproject/notation/security/advisories/new)
 - [Notation-Go Library Vulnerability Report](https://github.com/notaryproject/notation-go/security/advisories/new)
@@ -26,7 +26,7 @@ To make a report plese use the GitHub Security Vulnerability Disclosure process 
 - [Notation Spcecification Vulnerability Report](https://github.com/notaryproject/notaryproject/security/advisories/new)
 
 ### When To Send a Report
-You think you have found a vulnerability in any of the Notation sub-projects or a dependency of the Notation sub-projects. 
+You think you have found a vulnerability in any of the Notary Project sub-projects or a dependency of the Notary Project sub-projects. 
 
 ### What To Include In a Report
 The more details are included in the report, the easier will be for the maintainers to understand the vulnerability and provide mitigations. Our vulnerability disclosure template requires the following information:
@@ -42,8 +42,8 @@ The more details are included in the report, the easier will be for the maintain
 Feel free to include anything else that you deem relevant for better understanding of the vulnerability.
 
 ### When Not To Send a Report
-- If a vulnerability has been found in an application that uses Notation or the Notation binaries. Instead, contact the maintaners of the respective application.
-- For guidance on securing Notation, please see the [documentation](https://notaryproject.dev/docs/) or ask on the [Slack channel](https://cloud-native.slack.com/archives/CQUH8U287).
+- If a vulnerability has been found in an application that uses Notary Project tools, libraries, or specifications. Instead, contact the maintaners of the respective application.
+- For guidance on securing Notary Project tools like Notation, please see the [documentation](https://notaryproject.dev/docs/) or ask on the [Slack channel](https://cloud-native.slack.com/archives/CQUH8U287).
 - You are looking for help applying security updates.
 
 ### Security Vulnerability Response
@@ -74,20 +74,20 @@ Here are the links to security advisories for each repository:
 - [Notation Spcecification Security Advisories](https://github.com/notaryproject/notaryproject/security/advisories)
 
 ## Security Team Membership
-The security team is made up of a subset of the Notation project maintainers who are willing and able to respond to vulnerability reports.
+The security team is made up of a subset of the Notary Project sub-project maintainers who are willing and able to respond to vulnerability reports.
 
 ### Responsibilities
-- Members MUST be active project maintainers on active (non-deprecated) Notation projects as defined in the governance
+- Members MUST be active sub-project or Notary Project organization maintainers on active (non-deprecated) Notary Project sub-projects as defined in the governance
 - Members SHOULD engage in each reported vulnerability, at a minimum to make sure it is being handled
 - Members MUST keep the vulnerability details private and only share on a need to know basis
 
 ### Membership
-New members are required to be active maintainers of Notation projects who are willing to perform the responsibilities outlined above. The security team is a subset of the maintainers. Members can step down at any time and may join at any time.
+New members are required to be active maintainers of Notary Project sub-projects who are willing to perform the responsibilities outlined above. The security team is a subset of the maintainers. Members can step down at any time and may join at any time.
 
-From time to time, Notation projects are deprecated. If at any time a security team member is found to be no longer be an active maintainer on active Notation projects, this individual will be removed from the security team.
+From time to time, Notary Project sub-projects are deprecated. If at any time a security team member is found to be no longer be an active maintainer on active Notary Project sub-projects, this individual will be removed from the security team.
 
 ## Patch and Release Team
-When a vulnerability comes in and is acknowledged, a team - including maintainers of the Notation project affected - will be assembled to patch the vulnerability, release an update, and publish the vulnerability disclosure. This may expand beyond the security team as needed but will stay within the pool of Notation project maintainers.
+When a vulnerability comes in and is acknowledged, a team - including maintainers of the Notary Project sub-project affected - will be assembled to patch the vulnerability, release an update, and publish the vulnerability disclosure. This may expand beyond the security team as needed but will stay within the pool of Notary Project sub-project maintainers.
 
 ## Credits
 We would like to give credit to the [Helm Community](https://github.com/helm/community) for using their security process and policy as an example.
