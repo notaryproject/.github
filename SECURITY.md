@@ -24,6 +24,8 @@ To make a report plese use the GitHub Security Vulnerability Disclosure process 
 - [Notation-Go Library Vulnerability Report](https://github.com/notaryproject/notation-go/security/advisories/new)
 - [Notation-Core-Go Library Vulnerability Report](https://github.com/notaryproject/notation-go/security/advisories/new)
 - [Notation Spcecification Vulnerability Report](https://github.com/notaryproject/notaryproject/security/advisories/new)
+- [Notary Security Advisories](https://github.com/notaryproject/notary/security/advisories/new)
+- [TUF Security Advisories](https://github.com/notaryproject/tuf/security/advisories/new)
 
 ### When To Send a Report
 You think you have found a vulnerability in any of the Notary Project sub-projects or a dependency of the Notary Project sub-projects. 
@@ -72,6 +74,8 @@ Here are the links to security advisories for each repository:
 - [Notation-Go Library Security Advisories](https://github.com/notaryproject/notation-go/security/advisories)
 - [Notation-Core-Go Library Security Advisories](https://github.com/notaryproject/notation-go/security/advisories)
 - [Notation Spcecification Security Advisories](https://github.com/notaryproject/notaryproject/security/advisories)
+- [Notary Security Advisories](https://github.com/notaryproject/notary/security/advisories)
+- [TUF Security Advisories](https://github.com/notaryproject/tuf/security/advisories)
 
 ## Security Team Membership
 The security team is made up of a subset of the Notary Project sub-project maintainers who are willing and able to respond to vulnerability reports. Notifiation for the vulnerability is sent to the sub-project maintainers. If the security team deems applicable, they can add additional contributors with the goal to recolve the vulnerability.
