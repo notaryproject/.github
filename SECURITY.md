@@ -78,7 +78,11 @@ Here are the links to security advisories for each repository:
 - [TUF Security Advisories](https://github.com/notaryproject/tuf/security/advisories)
 
 ## Security Team Membership
-The security team is made up of a subset of the Notary Project sub-project maintainers who are willing and able to respond to vulnerability reports. Notifiation for the vulnerability is sent to the sub-project maintainers. If the security team deems applicable, they can add additional contributors with the goal to recolve the vulnerability.
+The vulnerability reports are shared with all maintainers of the sub-project for which the vulnerability is reported. You can find the list of active maintainers and their contact details in the MAINTAINERS file in the respective sub-project repository.
+
+The security team is made up of a subset of the Notary Project sub-project maintainers who are deemed most experienced and relevant to respond to the vulnerability report. Decision of the participants is made by the maintainers on a case-by-case basis and depends on the severity and sensitivity of the vulnerability reported. If the security team deems it applicable, they can add additional contributors with the goal to resolve the vulnerability in a timely manner.
+
+Decisions of how the security team is selected and the names of the participants will be published after each vulnerability is disclosed.
 
 ### Responsibilities
 - Members MUST be active sub-project or Notary Project organization maintainers on active (non-deprecated) Notary Project sub-projects as defined in the governance
