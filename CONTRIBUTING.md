@@ -1,95 +1,101 @@
-# Contributing to notary
+# Contributing Guidelines
 
-## Before reporting an issue...
+Welcome to the notary community. The Notary project accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
 
-### If your problem is with...
+## Overview of Notary project
 
- - automated builds
- - your account on the [Docker Hub](https://hub.docker.com/)
- - any other [Docker Hub](https://hub.docker.com/) issue
+The Notary Project aims to provide enterprise-grade solutions and cross-industry standards for securing software supply chain. The following are current repositories, aka sub-projects, under the Notary project umbrella:
 
-Then please do not report your issue here - you should instead report it to [https://support.docker.com](https://support.docker.com)
+- [notation](https://github.com/notaryproject/notation), a CLI project to add signatures as standard items in the registry ecosystem, and to build a set of simple tooling for signing and verifying these signatures.
+- [notation-go](https://github.com/notaryproject/notation-go), a library project to support sign and verify artifacts and store signatures in the registry.
+- [notation-core-go](https://github.com/notaryproject/notation-core-go), a library project to support Notary signature envelope and format specific implementation.
+- [notaryproject](https://github.com/notaryproject/notatryproject), a project for Notary project requirements and specifications.
+- [notaryproject.dev](https://github.com/notaryproject/notatryproject.dev), a project for Notary project website.
+- [.github](https://github.com/notaryproject/.github), a project for notary project governance documents.
+- [meeting-notes](https://github.com/notaryproject/meeting-notes), a project for archived meeting notes.
+- [tuf](https://github.com/notaryproject/tuf), a project to implement the full TUF specification in a registry native way.
+- [notary](https://github.com/notaryproject/notatry), the original project, which is an implementation of TUF that runs next to a container registry and adds the ability to sign and verify content in the registry.
 
-### If you...
+## Support Channels
 
- - need help setting up notary
- - can't figure out something
- - are not sure what's going on or what your problem is
+Whether you are a user or contributor, official support channels include:
 
-Then please do not open an issue here yet - you should first try one of the following support forums:
+- Issues for each repository. You can use [Notation issue](https://github.com/notaryproject/notation/issues) if you are not sure about which repository to be involved.
+- Slack: [#notary-project](https://app.slack.com/client/T08PSQ7BQ/CQUH8U287/)
+- [Public community meetings](https://notaryproject.dev/community/#cncf-public-events-calendar)
+  - Catch up with [past meetings on YouTube](https://www.youtube.com/@CNCFNotary)
 
- - irc: #docker-trust on freenode
+## Reporting Security Issues
 
-## Reporting an issue properly
+If you are reporting a security vulnerability, Please DO NOT file a public issue.
 
-By following these simple rules you will get better and faster feedback on your issue.
+Please refer to [Security Guide here](SECURITY.md) on how to report security vulnerabilities.
 
- - search the bugtracker for an already reported issue
+## Reporting Other Issues
 
-### If you found an issue that describes your problem:
+It is a great way to contribute to notary project by reporting issues. Please open an issue on Github and follow the template to fill in required information.
 
- - please read other user comments first, and confirm this is the same issue: a given error condition might be indicative of different problems - you may also find a workaround in the comments
- - please refrain from adding "same thing here" or "+1" comments
- - you don't need to comment on an issue to get notified of updates: just hit the "subscribe" button
- - comment if you have some new, technical and relevant information to add to the case
+Before opening any issue, please look up the existing issues to avoid submitting a duplication. If you found an issue that describes your problem:
 
-### If you have not found an existing issue that describes your problem:
+- please read other user comments first, and confirm this is the same issue: a given error condition might be indicative of different problems - you may also find a workaround in the comments
+- please refrain from adding "same thing here" or "+1" comments
+- you don't need to comment on an issue to get notified of updates: just hit the "subscribe" button
+- comment if you have some new, technical and relevant information to add to the case
 
- 1. create a new issue, with a succinct title that describes your issue:
-   - bad title: "It doesn't work with my docker"
-   - good title: "Publish fail: 400 error with E_INVALID_DIGEST"
- 2. copy the output of:
-   - `notary version` or `docker version`
- 3. Run `notary` or `docker` with the `-D` option for debug output, and please include a copy of the command and the output.
- 4. If relevant, copy your `notaryserver` and `notarysigner` logs that show the error (this is likely the output from running `docker-compose up`)
+## Contributing Workflow
 
-## Contributing a patch for a known bug, or a small correction
+PR are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.
 
-You should follow the basic GitHub workflow:
+Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot of features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
 
- 1. fork
- 2. commit a change
- 3. make sure the tests pass
- 4. PR
+Note: If you split your pull request to small changes, please make sure any of the changes goes to main will not break anything. Otherwise, it can not be merged until this feature complete.
 
-Additionally, you must [sign your commits](https://github.com/docker/docker/blob/master/CONTRIBUTING.md#sign-your-work). It's very simple:
+- Fork and clone
 
- - configure your name with git: `git config user.name "Real Name" && git config user.email mail@example.com`
- - sign your commits using `-s`: `git commit -s -m "My commit"`
+  Fork the repository and clone the code to your local workspace.
 
-Some simple rules to ensure quick merge:
+- Branch
 
- - clearly point to the issue(s) you want to fix in your PR comment (e.g., `closes #12345`)
- - prefer multiple (smaller) PRs addressing individual issues over a big one trying to address multiple issues at once
- - if you need to amend your PR following comments, please squash instead of adding more commits
- - if fixing a bug or adding a feature, please add or update the relevant `CHANGELOG.md` entry with your pull request number
-   and a description of the change
+  Changes should be made on your own fork in a new branch checked out from the `main` branch.
+
+- Develop, Build and Test
+
+  Write code on the new branch in your fork. Unit test cases should be added to cover the new code. For PR in [notation](https://github.com/notaryproject/notation), end-to-end (e2e) test cases should be added, see [e2e quick start](https://github.com/notaryproject/notation/blob/main/test/e2e/README.md)
+
+- Keep sync with upstream
+
+  Once your branch gets out of sync with the `main` branch, please fetch and rebase from `main` branch.
+
+- Commit
+
+  As Notary project repositories has integrated the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) check tool, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes.
+
+  Notary project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits.
+
+- Push and Create PR
+
+  When ready for review, push your branch to your fork repository, and [create a new pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=webui). Description of a pull request should refer to all the issues that it addresses. Remember to put a reference to issues (such as Closes #XXX and Fixes #XXX) in commits so that the issues can be closed when the PR is merged.
+
+  Once your pull request has been opened it will be assigned to reviewers automatically based on CODEOWNERS. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation and comments, and style.
+
+  Commit changes made in response to review comments to the same branch on your fork.
 
 ## Contributing new features
 
-You are heavily encouraged to first discuss what you want to do. You can do so on the irc channel, or by opening an issue that clearly describes the use case you want to fulfill, or the problem you are trying to solve.
+You are heavily encouraged to first discuss what you want to do. You can do so on the slack channel, or by opening an issue that clearly describes the use case you want to fulfill, or the problem you are trying to solve. If this is a new feature, you should then submit a proposal that describes your technical solution and reasoning. It's advisable to address all feedback on this proposal before starting actual work. For new feature requiring changes on Notation CLI flags or commands, the proposal should include the changes on the CLI specification, see [Notation CLI index file](https://github.com/notaryproject/notation/blob/main/specs/notation-cli.md).
 
-If this is a major new feature, you should then submit a proposal that describes your technical solution and reasoning.
-If you did discuss it first, this will likely be greenlighted very fast. It's advisable to address all feedback on this proposal before starting actual work
+After issue and solution proposal are approved by maintainers, you should submit PR based on [Contributing Workflow](#contributing-workflow)
 
-Then you should submit your implementation, clearly linking to the issue (and possible proposal).
+## Documenting
 
-Your PR will be reviewed by the community, then ultimately by the project maintainers, before being merged.
+Update the documentation if you are creating or changing features. Good documentation is as important as the code itself.
 
-It's mandatory to:
+The main location for the documentation is the [website repository](https://github.com/notaryproject/notaryproject.dev).
 
- - interact respectfully with other community members and maintainers - more generally, you are expected to abide by the [Docker community rules](https://github.com/docker/docker/blob/master/CONTRIBUTING.md#docker-community-guidelines)
- - address maintainers' comments and modify your submission accordingly
- - write tests for any new code
+Documents are written with Markdown. See [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github) for more details.
 
-Complying to these simple rules will greatly accelerate the review process, and will ensure you have a pleasant experience in contributing code to the Registry.
+Documentation PRs will follow the same workflow as other PRs.
 
-## Review and Development notes
+## Credits
 
-- All merges require LGTMs from any 2 maintainers.
-- We use the git flow model (as best we can) using the `releases` branch as the stable branch, and the `master` branch as the development branch.  When we get near a potential release, a release branch (`release/<semver>`) will be created from `master`.  Any PRs that should go into the release should be made against that branch.  Hotfixes for a minor release will be added to the branch `hotfix/<semver>`.
-
-## Vendoring new dependency versions
-
-We use [VNDR](https://github.com/LK4D4/vndr); please update `vendor.conf` with the new dependency or the new version, and run
-`vndr <top level package name>`.
+We would like to give credit to the [Helm Community](https://github.com/helm/community) and the [Harbor Community](https://github.com/goharbor/harbor/) for using their contributing guide as references.
