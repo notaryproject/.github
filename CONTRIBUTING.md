@@ -42,6 +42,29 @@ Before opening any issue, please look up the existing issues to avoid submitting
 - you don't need to comment on an issue to get notified of updates: just hit the "subscribe" button
 - comment if you have some new, technical and relevant information to add to the case
 
+Issues will be marked with different labels for different purpose, see [Labels](#labels) for details.
+
+### Issue Lifecycle
+
+The issue lifecycle is mainly driven by the maintainers.
+
+1. Issue creation:
+   - After an issue is created, it will be labelled `bug` or `enhancement`, and `triage`.
+2. Triage: The maintainers will triage the issues. The results of triage could be one of the following:
+   - Remove label `triage`, and add the issues to the correct milestone
+   - Keep label `triage` to indicate that further triage is required.
+   - Remove label `triage`, and labelled `wont fix` to indicate this issue is out of the scope of Notary or other reasons.
+3. Development:
+   - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
+   - An issue that is labeled as `enhancement` or `bug` should be connected to the PR that resolves it
+4. Issue closure
+   - Close the issue once PRs are merged
+   - Close the issue once the author accepts the `wont fix` decision.
+
+## Support requests or questions
+
+Please use slack channel for support requests or questions. Issues could be created accordingly if it is a bug or enhancement.
+
 ## Contributing Workflow
 
 PR are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.
@@ -95,6 +118,31 @@ The main location for the documentation is the [website repository](https://gith
 Documents are written with Markdown. See [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github) for more details.
 
 Documentation PRs will follow the same workflow as other PRs.
+
+## Labels
+
+The following tables define all label types used for Notary project. It is split up by category.
+
+### Common
+
+| Label           | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| `bug`           | Marks an issue as a bug or a PR as a bugfix                                 |
+| `documentation` | Indicates the issue or PR is a documentation change                         |
+| `duplicate`     | Marks an issue or PR already exists                                         |
+| `enhancement`   | Marks the issue as a feature request or a PR as a feature implementation    |
+| `keep open`     | Denotes that the issue or PR should be kept open past 30 days of inactivity |
+| `testing`       | Marks an issue or PR is related to testing                                  |
+| `triage`        | Indicates the issue or PR needs triage                                      |
+| `UX`            | Marks an issue or PR is related to user experience                          |
+
+### Issue Specific
+
+| Label              | Description                                                              |
+| ------------------ | ------------------------------------------------------------------------ |
+| `help wanted`      | Marks an issue needs help from the community to solve                    |
+| `good first issue` | Marks an issue as a good starter issue for someone new to Notary project |
+| `wont fix`         | Marks an issue as discussed and will not be implemented                  |
 
 ## Credits
 
