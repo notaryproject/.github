@@ -84,29 +84,33 @@ Please submit a PR broken down into small changes bit by bit. A PR consisting of
 
 ### Branch
 
-  Changes should be made on your own fork in a new branch checked out from the `main` branch.
+Changes should be made on your own fork in a new branch checked out from the `main` branch.
 
 ### Develop, Build, and Test
 
-  Write code on the new branch in your fork. Unit test cases should be added to cover the new code. For PR in [notation](https://github.com/notaryproject/notation), end-to-end (e2e) test cases should be added, see [e2e quick start](https://github.com/notaryproject/notation/blob/main/test/e2e/README.md)
+Write code on the new branch in your fork. Unit test cases should be added to cover the new code. For PR in [notation](https://github.com/notaryproject/notation), end-to-end (e2e) test cases should be added, see [e2e quick start](https://github.com/notaryproject/notation/blob/main/test/e2e/README.md)
 
 ### Keep sync with upstream
 
-  Once your branch gets out of sync with the `main` branch, please fetch and rebase from `main` branch.
+Once your branch gets out of sync with the `main` branch, please fetch and rebase from `main` branch.
 
 ### Commit
 
-  As Notary project repositories has integrated the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) check tool, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes.
+As Notary project repositories has integrated the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) check tool, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. For example:
 
-  Notary project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits.
+```shell
+git commit -s -m <commit_message>
+```
+
+Notary project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits.
 
 ### Push and Create PR
 
-  When ready for review, push your branch to your fork repository, and [create a new pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=webui). Description of a pull request should refer to all the issues that it addresses. Remember to [link the PR to an issue using a keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) so that the issue can be closed when the PR is merged.
+When ready for review, push your branch to your fork repository, and [create a new pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=webui). Description of a pull request should refer to all the issues that it addresses. Remember to [link the PR to an issue using a keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) so that the issue can be closed when the PR is merged.
 
-  Once your pull request has been opened it will be assigned to reviewers automatically based on CODEOWNERS. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation and comments, and style.
+Once your pull request has been opened it will be assigned to reviewers automatically based on CODEOWNERS. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation and comments, and style.
 
-  Commit changes made in response to review comments to the same branch on your fork.
+Commit changes made in response to review comments to the same branch on your fork.
 
 ## Contributing new features
 
