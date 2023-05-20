@@ -88,7 +88,9 @@ Changes should be made on your own fork in a new branch checked out from the `ma
 
 ### Develop, Build, and Test
 
-Write code on the new branch in your fork. Unit test cases should be added to cover the new code. For PR in [notation](https://github.com/notaryproject/notation), end-to-end (e2e) test cases should be added, see [e2e quick start](https://github.com/notaryproject/notation/blob/main/test/e2e/README.md)
+Write code on the new branch in your fork. You can try to build the notation project locally by following the [Building guide](https://github.com/notaryproject/notation/blob/main/building.md)
+
+Unit test cases should be added to cover the new code. For PR in [notation](https://github.com/notaryproject/notation), end-to-end (e2e) test cases should be added, see [e2e quick start](https://github.com/notaryproject/notation/blob/main/test/e2e/README.md)
 
 ### Keep sync with upstream
 
@@ -96,13 +98,13 @@ Once your branch gets out of sync with the `main` branch, please fetch and rebas
 
 ### Commit
 
-As Notary project repositories has integrated the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) check tool, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. For example:
+You should follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to write commit message. As Notary project repositories enforces the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) on Pull Requests, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. Notary project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits. Git has provided a `-S` flag to create a signed commit.
+
+An example of git commit command:
 
 ```shell
-git commit -s -m <commit_message>
+git commit -s -S -m <commit_message>
 ```
-
-Notary project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits.
 
 ### Push and Create PR
 
