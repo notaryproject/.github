@@ -4,19 +4,20 @@ Welcome to the notary community. The Notary project accepts contributions via Gi
 
 ## Overview of Notary project
 
-The Notary Project aims to provide enterprise-grade solutions and cross-industry standards for securing software supply chain. The following are current repositories, aka sub-projects, under the Notary project umbrella:
+The Notary Project aims to provide enterprise-grade solutions and cross-industry standards for securing software supply chain. The following are current repositories, aka sub-projects, under the Notary Project umbrella in alphabetical order:
 
-| Repository                                                               | Description                                                                                                                                                    |
-| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [notation](https://github.com/notaryproject/notation)                    | A CLI project to add signatures as standard items in the registry ecosystem, and to build a set of simple tooling for signing and verifying these signatures   |
-| [notation-go](https://github.com/notaryproject/notation-go)              | A library project to support sign and verify artifacts and store signatures in the registry                                                                    |
-| [notation-core-go](https://github.com/notaryproject/notation-core-go)    | A library project to support Notary signature envelope and format specific implementation                                                                      |
-| [notaryproject](https://github.com/notaryproject/notatryproject)         | A project for Notary project requirements and specifications                                                                                                   |
-| [notaryproject.dev](https://github.com/notaryproject/notatryproject.dev) | A project for Notary project website                                                                                                                           |
-| [.github](https://github.com/notaryproject/.github)                      | A project for notary project governance documents                                                                                                              |
-| [meeting-notes](https://github.com/notaryproject/meeting-notes)          | A project for archived meeting notes                                                                                                                           |
-| [tuf](https://github.com/notaryproject/tuf)                              | A project to implement the full TUF specification in a registry native way                                                                                     |
-| [notary](https://github.com/notaryproject/notatry)                       | The original project, which is an implementation of TUF that runs next to a container registry and adds the ability to sign and verify content in the registry |
+| Repository                                                               | Description                                                                                                                                             |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [.github](https://github.com/notaryproject/.github)                      | The repository that contains the Notary Project governance documents                                                                                    |
+| [meeting-notes](https://github.com/notaryproject/meeting-notes)          | The repository that contains archived meeting notes                                                                                                     |
+| [notary](https://github.com/notaryproject/notatry)                       | The repository that is an implementation of TUF that runs next to a container registry and adds the ability to sign and verify content in the registry  |
+| [notaryproject](https://github.com/notaryproject/notatryproject)         | The repository that contains the Notary Project requirements and specifications                                                                         |
+| [notaryproject.dev](https://github.com/notaryproject/notatryproject.dev) | The repository that contains documents and styles for the Notary Project website                                                                        | 
+| [notation](https://github.com/notaryproject/notation)                    | The repository that is an implementation of the Notary Project specification and provides a CLI tooling to sign and verify artifacts                                                                                 |
+| [notation-go](https://github.com/notaryproject/notation-go)              | The repository that is an implementation of the Notary Project specification and provides the library supports of signing and verifying artifacts                    |
+| [notation-core-go](https://github.com/notaryproject/notation-core-go)    | The repository that is an implementation of the Notary Project signature specification and provides the library supports                                                                             |
+| [roadmap](https://github.com/notaryproject/roadmap)                      | The repository that contains roadmap issues for the Notary Project                                                                                      |
+| [tuf](https://github.com/notaryproject/tuf)                              | The repository that implements the full TUF specification in a registry native way                                                                      |
 
 ## Support Channels
 
