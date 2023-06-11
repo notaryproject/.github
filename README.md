@@ -49,7 +49,6 @@ You can also check the release pages of each repository for the laste release bi
 - [notation-core-go library releases](https://github.com/notaryproject/notation-core-go/releases)
 - [notary releases](https://github.com/notaryproject/notary/releases)
 
-
 ## Security
 
 The Notary Project has had several public security audits:
