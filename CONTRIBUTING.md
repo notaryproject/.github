@@ -1,23 +1,23 @@
 # Contributing Guidelines
 
-Welcome to the notary community. The Notary project accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
+Welcome to the Notary Project community. The Notary Project accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
 
-## Overview of Notary project
+## Overview of the Notary Project
 
 The Notary Project aims to provide enterprise-grade solutions and cross-industry standards for securing software supply chain. The following are current repositories, aka sub-projects, under the Notary Project umbrella in alphabetical order:
 
-| Repository                                                               | Description                                                                                                                                             |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [.github](https://github.com/notaryproject/.github)                      | The repository that contains the Notary Project governance documents                                                                                    |
-| [meeting-notes](https://github.com/notaryproject/meeting-notes)          | The repository that contains archived meeting notes                                                                                                     |
-| [notary](https://github.com/notaryproject/notatry)                       | The repository that is an implementation of TUF that runs next to a container registry and adds the ability to sign and verify content in the registry  |
-| [notaryproject](https://github.com/notaryproject/notatryproject)         | The repository that contains the Notary Project requirements and specifications                                                                         |
-| [notaryproject.dev](https://github.com/notaryproject/notatryproject.dev) | The repository that contains documents and styles for the Notary Project website                                                                        | 
-| [notation](https://github.com/notaryproject/notation)                    | The repository that is an implementation of the Notary Project specification and provides a CLI tooling to sign and verify artifacts                                                                                 |
-| [notation-go](https://github.com/notaryproject/notation-go)              | The repository that is an implementation of the Notary Project specification and provides the library supports of signing and verifying artifacts                    |
-| [notation-core-go](https://github.com/notaryproject/notation-core-go)    | The repository that is an implementation of the Notary Project signature specification and provides the library supports                                                                             |
-| [roadmap](https://github.com/notaryproject/roadmap)                      | The repository that contains roadmap issues for the Notary Project                                                                                      |
-| [tuf](https://github.com/notaryproject/tuf)                              | The repository that implements the full TUF specification in a registry native way                                                                      |
+| Repository                                                               | Description                                                                                                                                                                                           |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [.github](https://github.com/notaryproject/.github)                      | This repository contains the Notary Project governance and other common documents that are shared across repositories.                                                                                |
+| [meeting-notes](https://github.com/notaryproject/meeting-notes)          | The repository contains the archived meeting notes.                                                                                                                                                   |
+| [notary](https://github.com/notaryproject/notatry)                       | This repository contains the source code for the server and the client of the TUF-based implementation.                                                                                               |
+| [notaryproject](https://github.com/notaryproject/notatryproject)         | This repository contains the Notary Project requirements, scenarios, specifications, and security audits.                                                                                             |
+| [notaryproject.dev](https://github.com/notaryproject/notatryproject.dev) | This repository contains the source code and content for the [Notary Project website](https://notaryproject.dev/).                                                                                    | 
+| [notation](https://github.com/notaryproject/notation)                    | This repository contains the source code for the convenience CLI implementation of the Notary signing and verification flow.                                                                          |
+| [notation-go](https://github.com/notaryproject/notation-go)              | This repository contains the source code for the convenience Golang library implementation of the Notary signing and verification flow.                                                               |
+| [notation-core-go](https://github.com/notaryproject/notation-core-go)    | This repository contains the source code for the convenience Golang library implementation of the Notary signing and verification flow.                                                               |
+| [roadmap](https://github.com/notaryproject/roadmap)                      | This repository is intended for keeping track of development activities in the Notary Project. It may be retired in the future.                                                                       |
+| [tuf](https://github.com/notaryproject/tuf)                              | This repository is intended for prototyping the storage of TUF metadata in OCI-compliant registries. It is not under active development at the moment but there are plans to revive it in the future. |
 
 ## Support Channels
 
@@ -36,7 +36,7 @@ Please refer to [Security Guide](SECURITY.md) on how to report security vulnerab
 
 ## Reporting Other Issues
 
-It is a great way to contribute to notary project by reporting issues. Please open an issue on Github and follow the template to fill in required information.
+It is a great way to contribute to the Notary Project by reporting issues. Please open an issue on Github and follow the template to fill in required information.
 
 Before opening any issue, please look up the existing issues to avoid submitting a duplication. If you found an issue that describes your problem:
 
@@ -55,7 +55,7 @@ The issue lifecycle is mainly driven by the maintainers.
 2. Triage: The maintainers will triage the issues. The results of triage could be one of the following:
    - Remove label `triage`, and add the issues to the correct milestone
    - Keep label `triage` to indicate that further triage is required
-   - Remove label `triage`, and labelled `wont fix` to indicate this issue is out of the scope of Notary or other reasons.
+   - Remove label `triage`, and labelled `wont fix` to indicate this issue is out of the scope of the Notary Project or other reasons.
 3. Development:
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
    - An issue that is labeled as `enhancement` or `bug` should be connected to the PR that resolves it
@@ -99,7 +99,7 @@ Once your branch gets out of sync with the `main` branch, please fetch and rebas
 
 ### Commit
 
-You should follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to write commit message. As Notary project repositories enforces the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) on Pull Requests, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. Notary project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits. Git has provided a `-S` flag to create a signed commit.
+You should follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to write commit message. As the Notary Project repositories enforces the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) on Pull Requests, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. The Notary Project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits. Git has provided a `-S` flag to create a signed commit.
 
 An example of git commit command:
 
@@ -133,7 +133,7 @@ Documentation PRs will follow the same workflow as other PRs.
 
 ## Labels
 
-The following tables define all label types used for Notary project. It is split up by category.
+The following tables define all label types used for the Notary Project. It is split up by category.
 
 ### Common
 
@@ -154,7 +154,7 @@ The following tables define all label types used for Notary project. It is split
 | Label              | Description                                                              |
 | ------------------ | ------------------------------------------------------------------------ |
 | `help wanted`      | Marks an issue needs help from the community to solve                    |
-| `good first issue` | Marks an issue as a good starter issue for someone new to Notary project |
+| `good first issue` | Marks an issue as a good starter issue for someone new to the Notary Project |
 | `wont fix`         | Marks an issue as discussed and will not be implemented                  |
 
 ## Credits
