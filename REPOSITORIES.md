@@ -32,4 +32,4 @@ Repositories that show little relevance, are not maintained, or no longer have a
 
 ## Credits
 
-Sections of this documents have been borrowed from [falcosecurity/evolution](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md).
+Parts of the content are borrowed from [falcosecurity/evolution](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md).
