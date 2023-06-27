@@ -28,7 +28,7 @@ Here is a list of repositories under the Notary Project organization
 | [notation](https://github.com/notaryproject/notation) | This repository contains the source code for the convenient CLI implementation of the Notary signing and verification flow. |
 | [notation-go](https://github.com/notaryproject/notation-go) | This repository contains the source code for the convenient Golang library implementation of the Notary signing and verification flow. |
 | [notation-core-go](https://github.com/notaryproject/notation-core-go) | This repository contains the source code for the Golang library implementation of the Notary signature specification and wrapping (COSE and JWS). |
-| [roadmap](https://github.com/notaryproject/roadmap) | This repository is intended for keeping track of development activities in the Notary Project. It may be retired in the future. |
+| [roadmap](https://github.com/notaryproject/roadmap) | This repository is intended for keeping track of development activities in the Notary Project. It may be retired in the future as feature request and milestones are moved to the appropriate repositories. |
 | [tuf](https://github.com/notaryproject/tuf) | This repository is intended for prototyping the storage of TUF metadata in OCI-compliant registries. It is not under active development at the moment but there are plans to revive it in the future. |
 
 ## Project Status
