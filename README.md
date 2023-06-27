@@ -41,7 +41,7 @@ The Notary Project is in active development. The latest release announcements ar
 - [notation-core-go library milestones](https://github.com/notaryproject/notation-core-go/milestones)
 - [notary milestones](https://github.com/notaryproject/notary/milestones)
 
-You can also check the release pages of each repository for the laste release binaries:
+You can also check the release pages of each repository for the latest release binaries:
 
 - [The Notary Project specification releases](https://github.com/notaryproject/notaryproject/releases)
 - [notation CLI releases](https://github.com/notaryproject/notation/releases)
