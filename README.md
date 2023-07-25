@@ -22,7 +22,7 @@ Here is a list of repositories under the Notary Project organization
 | ----- | -----|
 | [.github](https://github.com/notaryproject/.github) | This repository contains the Notary Project governance and other common documents that are shared across repositories. |
 | [meeting-notes](https://github.com/notaryproject/meeting-notes) | This repository contains the archived meeting notes. |
-| [notary](https://github.com/notaryproject/notary) | This repository contains the source code for the server and the client of the TUF-based implementation. |
+| [notary](https://github.com/notaryproject/notary) | This repository contains the source code for the server and the client of the TUF-based implementation circa 2016. |
 | [notaryproject](https://github.com/notaryproject/notaryproject) | This repository contains the Notary Project requirements, scenarios,  specifications, and security audits. |
 | [notaryproject.dev](https://github.com/notaryproject/notaryproject.dev) | This repository contains the source code and content for the [Notary Project website](https://notaryproject.dev). | 
 | [notation](https://github.com/notaryproject/notation) | This repository contains the source code for the convenient CLI implementation of the Notary signing and verification flow. |
