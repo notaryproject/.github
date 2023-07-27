@@ -33,7 +33,7 @@ Here is a list of repositories under the Notary Project organization
 
 ## Project Status
 
-The Notary Project is in active development. The latest release announcements are published on the [Notary Project blog](https://notaryproject.dev/blog/). The Notary community uses the [project board](https://github.com/orgs/notaryproject/projects/10) for project planning and status tracking. You can also use GitHub milestones to track the progress of each repository:
+The Notary Project is in active development. The latest release announcements are published on the [Notary Project blog](https://notaryproject.dev/blog/). The Notary Project community uses the [project board](https://github.com/orgs/notaryproject/projects/10) for project planning and status tracking. You can also use GitHub milestones to track the progress of each repository:
 
 - [The Notary Project specification milestones](https://github.com/notaryproject/notaryproject/milestones)
 - [notation CLI milestones](https://github.com/notaryproject/notation/milestones)
