@@ -51,14 +51,14 @@ You can also check the release pages of each repository for the latest release b
 
 ## Security
 
-The Notary Project has had several public security audits:
-
-- [July 31, 2015 by NCC](https://github.com/notaryproject/notary/blob/master/docs/resources/ncc_docker_notary_audit_2015_07_31.pdf) covering `notary` repository.
-- [August 7, 2018 by Cure53](https://github.com/notaryproject/notary/blob/master/docs/resources/cure53_tuf_notary_audit_2018_08_07.pdf)) covering TUF and the `notary` repository.
-- [Mar 21, 2023 by ADA Logics](https://github.com/notaryproject/notaryproject/blob/main/security/reports/fuzzing/ADA-fuzzing-audit-22-23.pdf) fuzz testing audit covering `notary`, `notation-go`, and `notation-core-go` repositories.
-- [Jul 7, 2023 by ADA Logics](https://github.com/notaryproject/notaryproject/blob/main/security/reports/audit/ADA-notation-security-audit-23.pdf) security audit covering `notation`, `notation-go`, and `notation-core-go` repositories.
-
 The Notary Project has a continuous fuzz testing implemented for the following repositories: `notary`, `notation-go`, and `notation-core-go`.
+
+In addition, the Notary Project has had several public security audits:
+
+- [Jul 7, 2023 by ADA Logics](https://github.com/notaryproject/notaryproject/blob/main/security/reports/audit/ADA-notation-security-audit-23.pdf) security audit covering `notation`, `notation-go`, and `notation-core-go` repositories.
+- [Mar 21, 2023 by ADA Logics](https://github.com/notaryproject/notaryproject/blob/main/security/reports/fuzzing/ADA-fuzzing-audit-22-23.pdf) fuzz testing audit covering `notary`, `notation-go`, and `notation-core-go` repositories.
+- [August 7, 2018 by Cure53](https://github.com/notaryproject/notary/blob/master/docs/resources/cure53_tuf_notary_audit_2018_08_07.pdf)) covering TUF and the `notary` repository.
+- [July 31, 2015 by NCC](https://github.com/notaryproject/notary/blob/master/docs/resources/ncc_docker_notary_audit_2015_07_31.pdf) covering `notary` repository.
 
 ## Community
 
