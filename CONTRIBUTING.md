@@ -1,32 +1,6 @@
 # Contributing Guidelines
 
-Welcome to the Notary Project community. The Notary Project accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
-
-## Overview of the Notary Project
-
-The Notary Project aims to provide enterprise-grade solutions and cross-industry standards for securing software supply chain. The following are current repositories, aka sub-projects, under the Notary Project umbrella in alphabetical order:
-
-| Repository                                                               | Description                                                                                                                                                                                           |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [.github](https://github.com/notaryproject/.github)                      | This repository contains the Notary Project governance and other common documents that are shared across repositories.                                                                                |
-| [meeting-notes](https://github.com/notaryproject/meeting-notes)          | The repository contains the archived meeting notes.                                                                                                                                                   |
-| [notary](https://github.com/notaryproject/notatry)                       | This repository contains the source code for the server and the client of the TUF-based implementation.                                                                                               |
-| [notaryproject](https://github.com/notaryproject/notatryproject)         | This repository contains the Notary Project requirements, scenarios, specifications, and security audits.                                                                                             |
-| [notaryproject.dev](https://github.com/notaryproject/notatryproject.dev) | This repository contains the source code and content for the [Notary Project website](https://notaryproject.dev/).                                                                                    | 
-| [notation](https://github.com/notaryproject/notation)                    | This repository contains the source code for the convenience CLI implementation of the Notary signing and verification flow.                                                                          |
-| [notation-go](https://github.com/notaryproject/notation-go)              | This repository contains the source code for the convenience Golang library implementation of the Notary signing and verification flow.                                                               |
-| [notation-core-go](https://github.com/notaryproject/notation-core-go)    | This repository contains the source code for the convenience Golang library implementation of the Notary signing and verification flow.                                                               |
-| [roadmap](https://github.com/notaryproject/roadmap)                      | This repository is intended for keeping track of development activities in the Notary Project. It may be retired in the future.                                                                       |
-| [tuf](https://github.com/notaryproject/tuf)                              | This repository is intended for prototyping the storage of TUF metadata in OCI-compliant registries. It is not under active development at the moment but there are plans to revive it in the future. |
-
-## Support Channels
-
-Whether you are a user or contributor, official support channels include:
-
-- Issues for each repository. You can use [Notation issue](https://github.com/notaryproject/notation/issues) if you are not sure about which repository to be involved.
-- Slack: [#notary-project](https://app.slack.com/client/T08PSQ7BQ/CQUH8U287/). Join [slack](https://slack.cncf.io/) if it is your first time using Slack.
-- [Public community meetings](https://notaryproject.dev/community/#cncf-public-events-calendar)
-  - Catch up with [past meetings on YouTube](https://www.youtube.com/@CNCFNotary)
+Welcome to the Notary Project community. The Notary Project accepts contributions via GitHub issues or pull requests. This document outlines the process to help get your contribution accepted. Please see the [Notary Project Overview](https://github.com/notaryproject/.github/blob/main/README.md) to learn about Notary Project.
 
 ## Reporting Security Issues
 
