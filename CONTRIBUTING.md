@@ -28,7 +28,7 @@ The issue lifecycle is mainly driven by the maintainers.
    - After an issue is created, it will be labelled `bug` or `enhancement`, and `triage`.
 2. Triage: The maintainers will triage the issues. The results of triage could be one of the following:
    - Remove label `triage`, and add the issues to the correct milestone
-   - Keep label `triage` to indicate that further triage is required
+   - Remove label `triage`, and labelled `question` to indicate this issue need further information
    - Remove label `triage`, and labelled `wont fix` to indicate this issue is out of the scope of the Notary Project or other reasons.
 3. Development:
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
@@ -125,11 +125,11 @@ The following tables define all label types used for the Notary Project. It is s
 
 ### Issue Specific
 
-| Label              | Description                                                              |
-| ------------------ | ------------------------------------------------------------------------ |
-| `help wanted`      | Marks an issue needs help from the community to solve                    |
+| Label              | Description                                                                  |
+| ------------------ | ---------------------------------------------------------------------------- |
+| `help wanted`      | Marks an issue needs help from the community to solve                        |
 | `good first issue` | Marks an issue as a good starter issue for someone new to the Notary Project |
-| `wont fix`         | Marks an issue as discussed and will not be implemented                  |
+| `wont fix`         | Marks an issue as discussed and will not be implemented                      |
 
 ## Credits
 
