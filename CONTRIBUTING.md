@@ -39,7 +39,7 @@ The issue lifecycle is mainly driven by the maintainers.
 
 ### Stale issues or PRs
 
-A stale issue or pull request (PR) is one that has not had any activity or updates for 60 days. When an issue or PR becomes stale, it is labelled as `stale`. Normally maintainers will comment on stale issue or PR to prompt participants to take action. Then, if no additional activity occurs after 14 days, this issue or PR will be closed. If an update/comment occur on stale issues or pull requests, the stale label will be removed and the timer will restart.
+A stale issue is one that has not had any activity or updates for 60 days. A stale pull request (PR) is one that has not had any activity or updates for 45 days. When an issue or PR becomes stale, it is labelled as `stale`. Normally maintainers will comment on stale issue or PR to prompt participants to take action. Then, if no additional activity occurs after 30 days, this issue or PR will be closed. If an update/comment occur on stale issues or pull requests, the stale label will be removed and the timer will restart.
 
 ## Support requests or questions
 
@@ -117,11 +117,11 @@ The following tables define all label types used for the Notary Project. It is s
 | `documentation` | Indicates the issue or PR is a documentation change                         |
 | `duplicate`     | Marks an issue or PR already exists                                         |
 | `enhancement`   | Marks the issue as a feature request or a PR as a feature implementation    |
-| `keep open`     | Denotes that the issue or PR should be kept open past 30 days of inactivity |
+| `question`      | Indicates the issue or PR need further information                          |
 | `stale`         | Marks an issue or PR stale                                                  |
 | `testing`       | Marks an issue or PR is related to testing                                  |
 | `triage`        | Indicates the issue or PR needs triage                                      |
-| `UX`            | Marks an issue or PR is related to user experience                          |
+| `ux`            | Marks an issue or PR is related to user experience                          |
 
 ### Issue Specific
 
