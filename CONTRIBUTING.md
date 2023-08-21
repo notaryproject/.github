@@ -37,6 +37,8 @@ The issue lifecycle is mainly driven by the maintainers.
    - Close the issue once PRs are merged
    - Close the issue once the author accepts the `wont fix` decision
 
+After issues labelled `question` are clarified with further information, these issues could be added to the correct milestone or labelled `wont fix`.
+
 ### Stale issues or PRs
 
 A stale issue is one that has not had any activity or updates for 60 days. A stale pull request (PR) is one that has not had any activity or updates for 45 days. When an issue or PR becomes stale, it is labelled as `stale`. Normally maintainers will comment on stale issue or PR to prompt participants to take action. Then, if no additional activity occurs after 30 days, this issue or PR will be closed. If an update/comment occur on stale issues or pull requests, the stale label will be removed and the timer will restart.
