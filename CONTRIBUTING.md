@@ -26,9 +26,9 @@ The issue lifecycle is mainly driven by the maintainers.
 
 1. Issue creation:
    - After an issue is created, it will be labelled `bug` or `enhancement`, and `triage`.
-2. Triage: The maintainers will triage the issues. The results of triage could be one of the following:
+2. Triage: The maintainers will triage the issues on a regular basis. The results of triage could be one of the following:
    - Remove label `triage`, and add the issues to the correct milestone
-   - Remove label `triage`, and labelled `question` to indicate this issue need further information
+   - Remove label `triage`, and labelled `question` to indicate this issue need further information. After this issue is clarified with further information, it could be added to the correct milestone or labelled `wont fix`.
    - Remove label `triage`, and labelled `wont fix` to indicate this issue is out of the scope of the Notary Project or other reasons.
 3. Development:
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
@@ -37,11 +37,19 @@ The issue lifecycle is mainly driven by the maintainers.
    - Close the issue once PRs are merged
    - Close the issue once the author accepts the `wont fix` decision
 
-After issues labelled `question` are clarified with further information, these issues could be added to the correct milestone or labelled `wont fix`.
-
 ### Stale issues or PRs
 
 A stale issue is one that has not had any activity or updates for 60 days. A stale pull request (PR) is one that has not had any activity or updates for 45 days. When an issue or PR becomes stale, it is labelled as `stale`. Normally maintainers will comment on stale issue or PR to prompt participants to take action. Then, if no additional activity occurs after 30 days, this issue or PR will be closed. If an update/comment occur on stale issues or pull requests, the stale label will be removed and the timer will restart.
+
+## Milestones
+
+The Notary Project uses [milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) to track progress on groups of issues or pull requests in a repository. The following table defines the milestones that used by the Notary Project.
+
+| Milestone           | Description                                                                                                                       |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `discuss`           | This milestone includes issues or PRs that require discussion before they can be added to the correct milestone.                  |
+| `future`            | This milestone includes issues or PRs that are valuable but are not currently planned for release.                                |
+| `<Release Version>` | This milestone includes issues or PRs that are planned for a specific release. The format is `vX.Y.Z`, For example, `v1.1.0`, `v1.2.0`. See [Release Versioning](https://github.com/notaryproject/notation/blob/main/RELEASE_MANAGEMENT.md#release-versioning) for details. |
 
 ## Support requests or questions
 
@@ -119,10 +127,8 @@ The following tables define all label types used for the Notary Project. It is s
 | `documentation` | Indicates the issue or PR is a documentation change                         |
 | `duplicate`     | Marks an issue or PR already exists                                         |
 | `enhancement`   | Marks the issue as a feature request or a PR as a feature implementation    |
-| `question`      | Indicates the issue or PR need further information                          |
 | `stale`         | Marks an issue or PR stale                                                  |
 | `testing`       | Marks an issue or PR is related to testing                                  |
-| `triage`        | Indicates the issue or PR needs triage                                      |
 | `ux`            | Marks an issue or PR is related to user experience                          |
 
 ### Issue Specific
@@ -131,6 +137,8 @@ The following tables define all label types used for the Notary Project. It is s
 | ------------------ | ---------------------------------------------------------------------------- |
 | `help wanted`      | Marks an issue needs help from the community to solve                        |
 | `good first issue` | Marks an issue as a good starter issue for someone new to the Notary Project |
+| `question`         | Indicates the issue need further information                                 |
+| `triage`           | Indicates the issue needs triage                                             |
 | `wont fix`         | Marks an issue as discussed and will not be implemented                      |
 
 ## Credits
