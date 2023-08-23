@@ -57,7 +57,7 @@ Please use slack channel for support requests or questions. Issues could be crea
 
 ## Contributing Workflow
 
-PR are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.
+PR are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.-
 
 Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot of features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
 
@@ -83,9 +83,11 @@ Once your branch gets out of sync with the `main` branch, please fetch and rebas
 
 ### Commit
 
-You should follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to write commit message. As the Notary Project repositories enforces the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) on Pull Requests, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. The Notary Project repositories require signed commits, please refer to [commit signatures verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on signing commits. Git has provided a `-S` flag to create a signed commit.
+You should follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to write commit message. As the Notary Project repositories enforces the [DCO (Developer Certificate of Origin)](https://github.com/apps/dco) on Pull Requests, contributors are required to sign off that they adhere to those requirements by adding a `Signed-off-by` line to the commit messages. Git has even provided a `-s` command line option to append that automatically to your commit messages, please use it when you commit your changes. 
 
-An example of git commit command:
+The Notary Project repositories require signed commits, please refer to [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) on signing commits using SSH as it is easy to set up. You can find other methods to sign commits in the document [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification). Git has provided a `-S` flag to create a signed commit.
+
+An example of `git commit` command:
 
 ```shell
 git commit -s -S -m <commit_message>
