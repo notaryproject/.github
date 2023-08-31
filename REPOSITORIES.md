@@ -18,7 +18,7 @@ A repository can be archived if no activity like Pull Requests for a year. The s
 
 #### Archiviation
 
-Repositories showing little to no activity during the time span of a year can be proposed for Archiviation by opening a GitHub [issue](https://github.com/notaryproject/.github/issues). Once the proposal issue has a super-majority of approval from Notary Project governance maintainers, they can be archived. [Archived repositories](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) will remain inside the Notary Project GitHub organization but will be read-only and will not be maintained. As such, `CODEOWNERS` files contained in archived repositories are not valid.
+Repositories showing little to no activity during the time span of a year can be proposed for Archiviation by opening a GitHub [issue](https://github.com/notaryproject/.github/issues). The repository-level maintainers should be noticed about this archiviation issue. Once the proposal issue has a super-majority of approval from Notary Project governance maintainers and there is no response from the repository-level maintainers after 30 days notice, the repository can be archived. [Archived repositories](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) will remain inside the Notary Project GitHub organization but will be read-only and will not be maintained. As such, `CODEOWNERS` files contained in archived repositories are not valid.
 
 In some cases, a repository is archived to reserve its name for future use.
 
