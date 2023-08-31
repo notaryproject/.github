@@ -14,21 +14,17 @@ If the decision is to add the proposed project, then one of the Notary Project G
 
 ### Lifecycle change 
 
-A repository can be archived if the sub-project maintainers no longer maintain it or no activity for a long time. The sub-project maintainers of a given repository can propose changing its status by opening a GitHub issue in the [notaryproject/.github](https://github.com/notaryproject/.github) repository. The [Notary Project governance maintainers](MAINTAINERS) will take into account the community feedback and decide on the proposal.
+A repository can be archived if no activity like Pull Requests for a year. The sub-project maintainers of a given repository can propose changing its status by opening a GitHub issue in the [notaryproject/.github](https://github.com/notaryproject/.github) repository. The [Notary Project governance maintainers](MAINTAINERS) will take into account the community feedback and decide on the proposal. The project status should be stated in the README of the repository.
 
 #### Archiviation
 
-Repositories showing little to no activity during the time span of a year can be proposed for Archiviation by opening a GitHub [issue](https://github.com/notaryproject/.github/issues). Once the proposal issue has a supermajority of approval from Notary Project governance maintainers, they can be archived. [Archived repositories](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) will remain inside the Notary Project GitHub organization but will be read-only and will not be maintained. As such, CODEOWNERS files contained in archived repositories are not valid.
+Repositories showing little to no activity during the time span of a year can be proposed for Archiviation by opening a GitHub [issue](https://github.com/notaryproject/.github/issues). Once the proposal issue has a super-majority of approval from Notary Project governance maintainers, they can be archived. [Archived repositories](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) will remain inside the Notary Project GitHub organization but will be read-only and will not be maintained. As such, `CODEOWNERS` files contained in archived repositories are not valid.
 
 In some cases, a repository is archived to reserve its name for future use.
 
 #### Unarchiviation
 
 Archived repositories can be proposed for unarchiviation by opening a GitHub issue in the [notaryproject/.github](https://github.com/notaryproject/.github) repository. Once the proposal issue has a supermajority of approval from Notary Project governance maintainers, the archived repository can be changed to active. In general, the same rules as for new repositories apply. 
-
-### Removal
-
-Repositories that show little relevance, are not maintained, or no longer have a purpose inside The Notary Project, can be proposed for removal by opening a GitHub issue in the [notaryproject/.github](https://github.com/notaryproject/.github) repository. Removed repositories will stop being maintained and will no longer be part of the Notary Project GitHub organization. In such a case, one of the Notary Project GitHub organization admins will assist the issue opener to delete the repository or transfer it to another place.
 
 ## Credits
 
