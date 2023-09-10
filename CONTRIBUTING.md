@@ -1,21 +1,21 @@
 # Contributing Guidelines
 
-Welcome to the Notary Project community. The Notary Project accepts contributions via GitHub issues or pull requests. This document outlines the process to help get your contribution accepted. Please see the [Notary Project Overview](https://github.com/notaryproject/.github/blob/main/README.md) to learn about Notary Project.
+This document offers an overview of the process for users to contribute by either opening a pull request or reporting an issue. For more more information about the Notary Project, please refer to the [Notary Project Overview](https://github.com/notaryproject/.github/blob/main/README.md).
 
-## Reporting Security Issues
+## Reporting a Security Issue
 
-> **Warning** If you are reporting a security vulnerability, Please DO NOT file a public issue.
+> **Warning** If you are reporting a security vulnerability, Please DO NOT open a public issue.
 
 Please refer to [Security Guide](SECURITY.md) on how to report security vulnerabilities.
 
-## Reporting Other Issues
+## Reporting an Issue
 
-It is a great way to contribute to the Notary Project by reporting issues. Please open an issue on Github and follow the template to fill in required information.
+Reporting an issue is a great way to contribute. Please open an issue on Github with required information.
 
-Before opening any issue, please look up the existing issues to avoid submitting a duplication. If you found an issue that describes your problem:
+Prior to opening a new issue, we kindly request that you check the existing issues to prevent duplicate submissions. In the event that you come across an issue that aligns with your problem please do following:
 
-- Please read other user comments first to confirm if they have experienced the same issue. Keep in mind that a given error condition might be indicative of different problems. You may also find a workaround in the comments
-- To receive updates on an issue, simply click the 'subscribe' button
+- Carefully review the issue description and comments to validate that your issue aligns with a similar problem. It's important to note that a specific error could potentially be associated with various issues. Additionally, you might discover a potential solution or workaround in the comments section
+- To receive notifications regarding an issue, just click the 'subscribe' button
 - Please only comment if you have new, technical, and relevant information to add to the case.
 
 Issues will be marked with different labels for different purpose, see [Labels](#labels) for details.
@@ -26,10 +26,10 @@ The issue lifecycle is mainly driven by the maintainers.
 
 1. Issue creation:
    - After an issue is created, it will be labelled `bug` or `enhancement`, and `triage`.
-2. Triage: The maintainers will triage the issues on a regular basis. The results of triage could be one of the following:
-   - Remove label `triage`, and add the issues to the correct milestone
-   - Remove label `triage`, and labelled `question` to indicate this issue need further information. After this issue is clarified with further information, it could be added to the correct milestone or labelled `wont fix`.
-   - Remove label `triage`, and labelled `wont fix` to indicate this issue is out of the scope of the Notary Project or other reasons.
+2. Triage: The maintainers will triage the issues on a regular basis. The results of triage will be one of the following:
+   - Remove label `triage`, and add the issues to the correct milestone.
+   - Remove the `triage` label and apply the `question` label to indicate that this issue requires additional information. Once this issue has been clarified with the necessary details, it can then be assigned to the appropriate milestone or labeled as `wont fix`.
+   - Remove the `triage` label and assign the `wont fix` label to signify that this issue falls outside the scope of the Notary Project or for other relevant reasons.
 3. Development:
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
    - An issue that is labeled as `enhancement` or `bug` should be connected to the PR that resolves it
@@ -39,7 +39,7 @@ The issue lifecycle is mainly driven by the maintainers.
 
 ### Stale issues or PRs
 
-A stale issue is one that has not had any activity or updates for 60 days. A stale pull request (PR) is one that has not had any activity or updates for 45 days. When an issue or PR becomes stale, it is labelled as `stale`. Normally maintainers will comment on stale issue or PR to prompt participants to take action. Then, if no additional activity occurs after 30 days, this issue or PR will be closed. If an update/comment occur on stale issues or pull requests, the stale label will be removed and the timer will restart.
+A stale issue is one that remains inactive or without updates for a period of 60 days. A stale pull request (PR) is one that remains inactive or without updates for a period of 45 days. When an issue or PR becomes stale, it is labelled as `stale`. Normally maintainers will comment on stale issue or PR to prompt participants to take action. If there is no activity for additional 30 days, this issue or PR will be closed. If an update/comment occur on stale issues or pull requests, the stale label will be removed and the timer will restart.
 
 ## Milestones
 
