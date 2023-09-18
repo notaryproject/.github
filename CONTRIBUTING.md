@@ -4,7 +4,8 @@ This document offers an overview of the process for users to contribute by eithe
 
 ## Reporting a Security Issue
 
-> **Warning** If you are reporting a security vulnerability, Please DO NOT open a public issue.
+> [!Warning]
+> If you are reporting a security vulnerability, Please DO NOT open a public issue.
 
 Please refer to [Security Guide](SECURITY.md) on how to report security vulnerabilities.
 
@@ -34,8 +35,10 @@ The issue lifecycle is mainly driven by the maintainers.
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
    - An issue that is labeled as `enhancement` or `bug` should be connected to the PR that resolves it
 4. Issue closure
-   - Close the issue once PRs are merged
-   - Close the issue once the author accepts the `wont fix` decision
+   - Close the issue once PRs are merged.
+   - Close the issue once the author accepts the `wont fix` decision.
+   - Close the issue if a bug cannot be reproduced with the author's agreement. Create a new issue if this bug is reproduced in the future.
+   - Transform the issue to GitHub discussion with the author's agreement, if an issue contains open-ended conversations that don’t necessarily have a specific goal or outcome in mind.
 
 ### Stale issues or PRs
 
@@ -57,7 +60,7 @@ Please use slack channel for support requests or questions. Issues could be crea
 
 ## Contributing Workflow
 
-PR are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.-
+PRs are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.-
 
 Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot of features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
 
