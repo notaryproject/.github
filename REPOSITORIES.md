@@ -10,7 +10,7 @@ Anyone can submit proposals regarding repositories' lifecycle by opening a GitHu
 A new sub-project can be created as a repository and contributed to the Notary Project organization by opening a GitHub issue to request [Notary Project governance maintainers](MAINTAINERS) to vote in the
 [notaryproject/.github](https://github.com/notaryproject/.github) repository. A new sub-project can be created after having a supermajority (two-thirds) of approval from Notary Project governance maintainers.
 
-If the decision is to add the proposed project, then one of the Notary Project GitHub organization admins will assist the issue opener in creating a repository or transferring an existing repository to the Notary Project organization. Upon creation, the repository must be reviewed to make sure it follows [Notary Governance](GOVERNANCE.md). 
+If the decision is to add the proposed project, then one of the Notary Project GitHub organization admins will assist the issue opener in creating a repository or transferring an existing repository to the Notary Project organization. Upon creation, the repository must be reviewed to make sure it follows the [Notary Project Governance](GOVERNANCE.md). 
 
 ### Lifecycle change 
 
