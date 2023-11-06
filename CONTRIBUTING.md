@@ -34,11 +34,11 @@ The issue lifecycle is mainly driven by the maintainers.
 3. Development:
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
    - An issue that is labeled as `enhancement` or `bug` should be connected to the PR that resolves it
-4. Issue closure
-   - Close the issue once PRs are merged.
-   - Close the issue once the author accepts the `wont fix` decision.
-   - Close the issue if a bug cannot be reproduced with the author's agreement. Create a new issue if this bug is reproduced in the future.
-   - Transform the issue to GitHub discussion with the author's agreement, if an issue contains open-ended conversations that don’t necessarily have a specific goal or outcome in mind.
+4. Issue closure: Follow the [guideance](https://docs.github.com/en/issues/tracking-your-work-with-issues/closing-an-issue)
+   - Close as completed once PRs are merged.
+   - Close as completed once the author accepts the `wont fix` decision.
+   - Close as not planned if a bug cannot be reproduced with the author's agreement. Create a new issue if this bug is reproduced in the future.
+   - Close as not planned by transforming the issue to GitHub discussion with the author's agreement, if an issue contains open-ended conversations that don’t necessarily have a specific goal or outcome in mind.
 
 ### Stale issues or PRs
 
