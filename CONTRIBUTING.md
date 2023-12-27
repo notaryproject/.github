@@ -27,18 +27,16 @@ The issue lifecycle is mainly driven by the maintainers.
 
 1. Issue creation:
    - After an issue is created, it will be labelled `bug` or `enhancement`, and `triage`.
-2. Triage: The maintainers will triage the issues on a regular basis. The results of triage will be one of the following:
+2. Triage: The maintainers will triage the issues weekly. The results of triage will be one of the following:
    - Remove label `triage`, and add the issues to the correct milestone.
-   - Remove the `triage` label and apply the `question` label to indicate that this issue requires additional information. Once this issue has been clarified with the necessary details, it can then be assigned to the appropriate milestone or labeled as `wont fix`.
+   - Remove the `triage` label and apply the `need information` label to indicate that this issue requires additional information. Once this issue has been clarified with the necessary details, it can then be assigned to the appropriate milestone or labeled as `wont fix`.
    - Remove the `triage` label and assign the `wont fix` label to signify that this issue falls outside the scope of the Notary Project or for other relevant reasons.
 3. Development:
    - An issue labelled `enhancement` normally require solution proposal and spec updates if needed before implementation
    - An issue that is labeled as `enhancement` or `bug` should be connected to the PR that resolves it
-4. Issue closure: Follow the [guidance](https://docs.github.com/en/issues/tracking-your-work-with-issues/closing-an-issue)
-   - Close as completed once PRs are merged.
-   - Close as completed once the author accepts the `wont fix` decision.
-   - Close as not planned if a bug cannot be reproduced with the author's agreement. Create a new issue if this bug is reproduced in the future.
-   - Close as not planned by transforming the issue to GitHub discussion with the author's agreement, if an issue contains open-ended conversations that don’t necessarily have a specific goal or outcome in mind.
+4. Issue closure: According to the [guidance](https://docs.github.com/en/issues/tracking-your-work-with-issues/closing-an-issue), there are two reasons for closing an issue: `Close as completed` (default reason) and `Close as not planned`. 
+   - Use `Close as completed` if the issue is fixed, resolved, or done. 
+   - Use `Close as not planned` if the author accepts the wont fix decision, or if the issue cannot be reproduced, duplicated, or is stale.
 
 ### Stale issues or PRs
 
@@ -50,9 +48,9 @@ The Notary Project uses [milestones](https://docs.github.com/en/issues/using-lab
 
 | Milestone           | Description                                                                                                                       |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `discuss`           | This milestone includes issues or PRs that require discussion before they can be added to the correct milestone.                  |
-| `future`            | This milestone includes issues or PRs that are valuable but are not currently planned for release.                                |
-| `<Release Version>` | This milestone includes issues or PRs that are planned for a specific release. The format is `vX.Y.Z`, For example, `v1.1.0`, `v1.2.0`. See [Release Versioning](https://github.com/notaryproject/notation/blob/main/RELEASE_MANAGEMENT.md#release-versioning) for details. |
+| `in discussion`     | This milestone includes issues or PRs that require discussion before they can be added to the correct milestone.                  |
+| `backlog`           | This milestone includes issues or PRs that are valuable but are not currently planned for release.                                |
+| `<Release Version>` | This milestone includes issues or PRs that are planned for a specific release. The format is `vX.Y.Z`, For example, `v1.1.0`, `v1.2.0`. See [Release Versioning](https://github.com/notaryproject/notation/blob/v1.0.1/RELEASE_MANAGEMENT.md#release-versioning) for details. |
 
 ## Support requests or questions
 
@@ -142,7 +140,7 @@ The following tables define all label types used for the Notary Project. It is s
 | ------------------ | ---------------------------------------------------------------------------- |
 | `help wanted`      | Marks an issue needs help from the community to solve                        |
 | `good first issue` | Marks an issue as a good starter issue for someone new to the Notary Project |
-| `question`         | Indicates the issue need further information                                 |
+| `need information` | Indicates the issue need further information                                 |
 | `triage`           | Indicates the issue needs triage                                             |
 | `wont fix`         | Marks an issue as discussed and will not be implemented                      |
 
