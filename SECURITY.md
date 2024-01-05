@@ -23,7 +23,7 @@ To make a report plese use the GitHub Security Vulnerability Disclosure process 
 - [Notation CLI Vulnerability Report](https://github.com/notaryproject/notation/security/advisories/new)
 - [Notation-Go Library Vulnerability Report](https://github.com/notaryproject/notation-go/security/advisories/new)
 - [Notation-Core-Go Library Vulnerability Report](https://github.com/notaryproject/notation-go/security/advisories/new)
-- [Notation Spcecification Vulnerability Report](https://github.com/notaryproject/notaryproject/security/advisories/new)
+- [Notation Specification Vulnerability Report](https://github.com/notaryproject/notaryproject/security/advisories/new)
 - [Notary Security Advisories](https://github.com/notaryproject/notary/security/advisories/new)
 - [TUF Security Advisories](https://github.com/notaryproject/tuf/security/advisories/new)
 
@@ -37,7 +37,7 @@ The more details are included in the report, the easier will be for the maintain
 - Detailed description of the vulnerability
     Provide all possible details about the vulnerability. Versions of binaries, pointing to incriminated source code, environment details etc. are essential to understand the vulnerability and its impact.
 - Proof of Concept (PoC) steps
-    Detailed steps to reproduce the vulnerabilitt. This should include CLI commands, specific configuration details, library calls, etc.
+    Detailed steps to reproduce the vulnerability. This should include CLI commands, specific configuration details, library calls, etc.
 - Impact
     Describe the impact of the vulnerability and who the impacted audience is.
     
@@ -73,7 +73,7 @@ Here are the links to security advisories for each repository:
 - [Notation CLI Security Advisories](https://github.com/notaryproject/notation/security/advisories)
 - [Notation-Go Library Security Advisories](https://github.com/notaryproject/notation-go/security/advisories)
 - [Notation-Core-Go Library Security Advisories](https://github.com/notaryproject/notation-go/security/advisories)
-- [Notation Spcecification Security Advisories](https://github.com/notaryproject/notaryproject/security/advisories)
+- [Notation Specification Security Advisories](https://github.com/notaryproject/notaryproject/security/advisories)
 - [Notary Security Advisories](https://github.com/notaryproject/notary/security/advisories)
 - [TUF Security Advisories](https://github.com/notaryproject/tuf/security/advisories)
 
