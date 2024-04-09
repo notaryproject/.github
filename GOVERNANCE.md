@@ -39,14 +39,15 @@ Changes to org maintainers use the following:
 * Any subproject maintainer is eligible for a position as an org maintainer
 * No one company or organization can employ a simple majority of the org maintainers
 * An org maintainer may step down by submitting an [issue](https://github.com/notaryproject/.github/issues/new) stating their intent and they will be moved to emeritus.
-* Org maintainers MUST remain active on the project. If they are unresponsive for > 3 months they will lose org maintainership unless a [super-majority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of the other org maintainers agrees to extend the period to be greater than 3 months
+* Org maintainers MUST remain active on the project. If they are unresponsive for > 3 months they will lose org maintainership unless a [two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of the other org maintainers agrees to extend the period to be greater than 3 months
 * Any eligible person may stand as an org maintainer by opening a [PR](https://github.com/notaryproject/.github/pulls).
 * When a PR is opened the project maintainers may vote
-  * The voting period will be open for a minimum of three business days and will remain open until a super-majority of project maintainers has voted
+  * The voting period will be open for a minimum of three business days and will remain open until a [two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of project maintainers has voted
   * Only current org maintainers are eligible to vote via casting a single vote each via a -1/+1 comment on the nomination issue or approving in GitHub.
-  * Once a [super-majority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) has been reached the maintainer elect must complete [onboarding](#onboarding-a-new-maintainer) prior to becoming an official Notary Project maintainer.
+  * Once a [two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) has been reached the maintainer elect must complete [onboarding](#onboarding-a-new-maintainer) prior to becoming an official Notary Project maintainer.
   * Once the maintainer onboarding has been completed a pull request is made on the repo adding the new maintainer to the [MAINTAINERS](MAINTAINERS) file.
-* When an org maintainer steps down, they become an emeritus maintainer
+* When an org maintainer steps down, they become an emeritus maintainer.
+* When the sole org maintainer representing a company decides to step down, ensuring a seamless transition and continued company involvement becomes crucial. In such cases, the company representative has the privilege to nominate a replacement from within their company. This nomination process involves [opening an issue on GitHub](https://github.com/notaryproject/.github/issues/new). Existing org maintainers are then eligible to cast their votes by expressing either support or dissent through a single comment using `+1` or `-1` on the nomination issue. To elect the new organizational maintainer, a [two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of votes in favor is required.
 
 ### Subproject Maintainers
 
@@ -59,9 +60,9 @@ Subproject maintainers do not need to be software developers. No explicit role i
 Changes to maintainers use the following:
 
 * A subproject maintainer may step down by submitting an [issue](https://github.com/notaryproject/.github/issues/new) stating their intent and they will be moved to emeritus.
-* Maintainers MUST remain active. If they are unresponsive for > 6 months they will be automatically removed unless a [super-majority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of the other subproject maintainers agrees to extend the period to be greater than 6 months
+* Maintainers MUST remain active. If they are unresponsive for > 6 months they will be automatically removed unless a [two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of the other subproject maintainers agrees to extend the period to be greater than 6 months
 * Potential new maintainers should be ongoing active participants in the project
-* New maintainers can be added to a subproject by a [super-majority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) vote of the existing subproject maintainers
+* New maintainers can be added to a subproject by a [two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) vote of the existing subproject maintainers
 * When a subproject has no maintainers the Notary Project org maintainers become responsible for it and may archive the subproject or find new maintainers
 
 ### Onboarding a New Maintainer
@@ -79,11 +80,11 @@ When a consensus cannot be found a maintainer can call for a [majority](https://
 
 Many of the day-to-day project maintenance can be done by a lazy consensus model. But the following items must be called to vote:
 
-* Removing a maintainer for any reason other than inactivity (super majority)
-* Changing the governance rules (this document) (super majority)
-* Licensing and intellectual property changes (including new logos, wordmarks) (simple majority)
-* Adding, archiving, or removing subprojects (simple majority)
-* Utilizing Notary Project/CNCF money for anything CNCF deems "not cheap and easy" (simple majority)
+* Removing a maintainer for any reason other than inactivity ([two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote))
+* Changing the governance rules (this document) ([two-thirds supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote)
+* Licensing and intellectual property changes (including new logos, wordmarks) ([simple majority](https://en.wikipedia.org/wiki/Majority))
+* Adding, archiving, or removing subprojects ([simple majority](https://en.wikipedia.org/wiki/Majority))
+* Utilizing Notary Project/CNCF money for anything CNCF deems "not cheap and easy" ([simple majority](https://en.wikipedia.org/wiki/Majority))
 
 New subprojects should be created (or added) with a well defined mission and goals, and significant changes should be voted on by both the subproject maintainers and the org maintainers.
 
