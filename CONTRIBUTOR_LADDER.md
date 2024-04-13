@@ -21,7 +21,6 @@ Description: A Contributor contributes directly to the project and adds value to
     * Test releases and patches and submit reviews
     * Run or helps run events
     * Promote the project in public
-    * Help run the project infrastructure
 * Privileges:
     * Invitations to contributor events
     * Eligible to become an Organization Member
