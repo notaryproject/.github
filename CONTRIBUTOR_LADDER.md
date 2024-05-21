@@ -10,7 +10,7 @@ Description: A Contributor contributes directly to the project and adds value to
 
 * Responsibilities include:
     * Follow the [Notary Project CoC](CODE_OF_CONDUCT.md)
-    * Follow the project [contributing guide](CONTRIBUTING.md)
+    * Follow the Notary Project [contributing guide](CONTRIBUTING.md)
 * Requirements (one or several of the below):
     * Report and sometimes resolve issues
     * Occasionally submit PRs
@@ -36,18 +36,20 @@ An Organization Member must meet the responsibilities and has the requirements o
     * Work to accomplish the tasks they volunteer to do within the project
 * Qualifications:
     * Must have successful contributions to the project, including at least one of the following:
-        * Written and/or reviewed PRs,
-        * Made contributions that resolved Issues,
+        * Accepted and/or reviewed PRs,
+        * Made contributions that resolved Issues
         * Or some equivalent combination or contribution
     * Must be actively contributing to at least one subproject, where the privileges of Organization Member will be beneficial
 * Privileges:
+    * May be assigned issues and reviews
     * Can trigger CI
-    * Can leave reviews on PRs
+    * Can drive project releases
+    * Can be added as code owner for sub-projects
     * Can recommend other contributors to become Notary Project Organization Members
 
 The process for a Contributor to become an Organization Member is as follows:
 
-1. Any organization memeber can open an issue in the repo [.github](https://github.com/notaryproject/.github) to nominate a new organization member.
+1. Any organization member can open an issue in the repo [.github](https://github.com/notaryproject/.github) to nominate a new organization member.
 2. Receive "LGTM" or "+1" comments from a 50% majority of Org maintainers.
 
 ## Subproject Maintainer
