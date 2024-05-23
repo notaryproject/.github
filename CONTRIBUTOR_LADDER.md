@@ -2,7 +2,7 @@
 
 Hello! We are excited that you want to learn more about the Notary Project contributor ladder! This contributor ladder outlines the different contributor roles within the overall project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
 
-Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
+Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do, "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
 
 ## Contributor
 
@@ -72,7 +72,7 @@ Therefore members with an extended period away from the project with no activity
 
 ### How inactivity is measured
 
-Inactive members are defined as members of the Notary Project with **no** contributions across any repository within 12 months. According to the Notary Project [governance document](GOVERNANCE.md), inactive subproject maintainers are defined as members of the Notary Project with **no** contributions in specific subprojects within 6 months. Inactive org maintainers are defined as members of the Notary Project with **no** contributions in specific subprojects within 3 months. This is measured by the CNCF [DevStats project](https://notary.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
+Inactive members are defined as members of the Notary Project with **no** contributions across any repository within 12 months. Both coding and non-coding activities, such as meeting participation and event coordination, count as contributions. According to the Notary Project [governance document](GOVERNANCE.md), inactive subproject maintainers are defined as members of the Notary Project with **no** contributions in specific subprojects within 6 months. Inactive org maintainers are defined as members of the Notary Project with **no** contributions in any subprojects or organization within 3 months. This is measured by the CNCF [DevStats project](https://notary.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
 
 **Note:** Devstats does not take into account non-code contributions. If a non-code contributing member is accidentally removed this way, they may open an issue to quickly be re-instated.
 
