@@ -1,6 +1,6 @@
 # Notary Project Contributor Ladder
 
-Hello! We are excited that you want to learn more about the Notary Project contributor ladder! This contributor ladder outlines the different contributor roles within the overall project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our project members are happy to help you advance along the contributor ladder.
+Hello! We are excited that you want to learn more about the Notary Project contributor ladder! This contributor ladder outlines the different contributor roles within the overall project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our project members are happy to help you advance up the contributor ladder.
 
 Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do, "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
 
@@ -36,7 +36,7 @@ An Organization Member must meet the responsibilities and has the requirements o
     * Work to accomplish the tasks they volunteer to do within the project
 * Qualifications:
     * Must have successful contributions to the project, including at least one of the following:
-        * Accepted and/or reviewed PRs,
+        * Have PRs merged and/or reviewed PRs,
         * Made contributions that resolved Issues
         * Or some equivalent combination or contribution
     * Must be actively contributing to at least one subproject, where the privileges of Organization Member will be beneficial
